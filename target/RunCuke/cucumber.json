@@ -1,0 +1,985 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 28404108300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user should navigate to Flight Page",
+        "description": "",
+        "id": "flight-destination-and-search-flight-functionality;verify-user-should-navigate-to-flight-page",
+        "after": [
+          {
+            "result": {
+              "duration": 123400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4092259799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page of expedia website",
+            "match": {
+              "location": "FlightDestinationTest.iAmOnHomePageOfExpediaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4565156499,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Flight button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnFlightButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162723301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to Flight page successfully",
+            "match": {
+              "location": "FlightDestinationTest.iShouldNavigateToFlightPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15059116400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify user should find destination according there choice",
+        "description": "",
+        "id": "flight-destination-and-search-flight-functionality;verify-user-should-find-destination-according-there-choice;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 58200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page of expedia website",
+            "match": {
+              "location": "FlightDestinationTest.iAmOnHomePageOfExpediaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1241069401,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Accept button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnAcceptButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 779041800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Flight tab",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnFlightTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4253111099,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select flying from \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 22
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectFlyingFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 854124399,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select Going to \"Ahmedabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ahmedabad",
+                  "offset": 19
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectGoingTo(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028017600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select Departing date \"20/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20/12/2020",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectDepartingDate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1401562099,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select Returning date \"10/02/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10/02/2021",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectReturningDate(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320636900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Travellers",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322282201,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select two Travellers",
+            "match": {
+              "location": "FlightDestinationTest.iSelectTwoTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10460406300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on close button after selection of passengers",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnCloseButtonAfterSelectionOfPassengers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19319509600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on search button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194664599,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see my selected \"Select your departure to Ahmedabad\" successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select your departure to Ahmedabad",
+                  "offset": 26
+                }
+              ],
+              "location": "FlightDestinationTest.iShouldSeeMySelectedSuccessfully(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 28357999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify user should find destination according there choice",
+        "description": "",
+        "id": "flight-destination-and-search-flight-functionality;verify-user-should-find-destination-according-there-choice;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 65900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 282999,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page of expedia website",
+            "match": {
+              "location": "FlightDestinationTest.iAmOnHomePageOfExpediaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343463601,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Accept button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnAcceptButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406216900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Flight tab",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnFlightTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 824411100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select flying from \"Birmingham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Birmingham",
+                  "offset": 22
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectFlyingFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422971899,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select Going to \"Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 19
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectGoingTo(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683619900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select Departing date \"10/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10/12/2020",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectDepartingDate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 799533800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select Returning date \"10/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10/01/2021",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectReturningDate(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227803200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Travellers",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248171400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select two Travellers",
+            "match": {
+              "location": "FlightDestinationTest.iSelectTwoTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10204671900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on close button after selection of passengers",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnCloseButtonAfterSelectionOfPassengers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13783330600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on search button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330691700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see my selected \"Select your departure to Delhi\" successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select your departure to Delhi",
+                  "offset": 26
+                }
+              ],
+              "location": "FlightDestinationTest.iShouldSeeMySelectedSuccessfully(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16693441100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify user should find destination according there choice",
+        "description": "",
+        "id": "flight-destination-and-search-flight-functionality;verify-user-should-find-destination-according-there-choice;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 38500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page of expedia website",
+            "match": {
+              "location": "FlightDestinationTest.iAmOnHomePageOfExpediaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 600914300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Accept button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnAcceptButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850709300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Flight tab",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnFlightTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2078579800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select flying from \"Ahmedabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ahmedabad",
+                  "offset": 22
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectFlyingFrom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1440419700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select Going to \"Mumbai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mumbai",
+                  "offset": 19
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectGoingTo(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1614256800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select Departing date \"18/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18/12/2020",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectDepartingDate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1397280100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select Returning date \"10/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10/01/2021",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightDestinationTest.iSelectReturningDate(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550965000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Travellers",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 648366100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select two Travellers",
+            "match": {
+              "location": "FlightDestinationTest.iSelectTwoTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10372404100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on close button after selection of passengers",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnCloseButtonAfterSelectionOfPassengers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15219003400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on search button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87367200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see my selected \"Select your departure to Mumbai\" successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select your departure to Mumbai",
+                  "offset": 26
+                }
+              ],
+              "location": "FlightDestinationTest.iShouldSeeMySelectedSuccessfully(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight Destination and Search Flight Functionality",
+    "description": "As a User\r\nI want to visit expedia website to book flight ticket\r\nSo I can travel to choice of my destination",
+    "id": "flight-destination-and-search-flight-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/expedia/resources/featurefile/Flight.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16906617200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify User should navigate to sign in page",
+        "description": "",
+        "id": "login-functionality;verify-user-should-navigate-to-sign-in-page",
+        "after": [
+          {
+            "result": {
+              "duration": 30900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page of expedia website",
+            "match": {
+              "location": "FlightDestinationTest.iAmOnHomePageOfExpediaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242396500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Accept button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnAcceptButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300326700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on account button",
+            "match": {
+              "location": "LoginTest.iClickOnAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 462021700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on sign in button",
+            "match": {
+              "location": "LoginTest.iClickOnSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 813226000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be in sign in page successfully",
+            "match": {
+              "location": "LoginTest.iShouldBeInSignInPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22570381300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify user should not login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 35600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page of expedia website",
+            "match": {
+              "location": "FlightDestinationTest.iAmOnHomePageOfExpediaWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341371400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Accept button",
+            "match": {
+              "location": "FlightDestinationTest.iClickOnAcceptButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264213100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on account button",
+            "match": {
+              "location": "LoginTest.iClickOnAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176134800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on sign in button",
+            "match": {
+              "location": "LoginTest.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6251841300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter email in email field \"dhannobhag@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhannobhag@gmail.com",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginTest.iEnterEmailInEmailField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 625420400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter password in password field \"dhanno123456@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanno123456@",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginTest.iEnterPasswordInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591415200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on sign in tab",
+            "match": {
+              "location": "LoginTest.iClickOnSignInTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310874600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see system showing error message",
+            "match": {
+              "location": "LoginTest.iShouldSeeSystemShowingErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "As a User\r\nI want to visit expedia website",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/expedia/resources/featurefile/login.feature"
+  }
+]
